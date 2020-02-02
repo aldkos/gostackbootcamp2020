@@ -1,7 +1,9 @@
 # gostackbootcamp2020
 Repositório para pubilcação de projetos feitos durante o curso da rocketseat GoStack BOOTCAMP
 
+
 = modulo01 =
+
 POST > http://localhost:3000/users
 "{
 	"name": "NOME"
@@ -18,7 +20,9 @@ GET > http://localhost:3000/users
 
 GET > http://localhost:3000/users/0
 
+
 = modulo01Desafio =
+
 GET > http://localhost:3000/projects
 
 POST > http://localhost:3000/projects
