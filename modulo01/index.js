@@ -11,12 +11,12 @@ server.use(express.json());
 const users = ['Diego', 'Robson', 'Victor'];
 
 server.use((req, res, next) => {
-    console.time('MiddlewhereGlobal');
+    console.time('MiddlewareGlobal');
     console.log(`Método: ${req.method}; URL: ${req.url}`)
 
     next();
 
-    console.timeEnd('MiddlewhereGlobal');
+    console.timeEnd('MiddlewareGlobal');
 });
 
 function checkUserExistis(req, res, next) {

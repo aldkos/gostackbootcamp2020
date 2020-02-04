@@ -1,7 +1,9 @@
-/modulo01Desafio/node_modules/
 /modulo01/node_modules/
-/modulo01Desafio/.idea/
 /modulo01/.idea/
+/modulo01Desafio/node_modules/
+/modulo01Desafio/.idea/
+/modulo02/node_modules/
+/modulo02/.idea/
 
 # Logs
 logs
